@@ -42,5 +42,15 @@ def findline(word):
 
 #Now we want to print those line numbers of i+1
 
- 
-findline("cat")
+#myList = ["cat", "week"]
+#for item in myList:
+#    findline(item)
+
+
+word_file = open("words.txt", "r")
+
+for aline in word_file:
+    values = aline
+    findline(values)
+
+#word_file.close()
