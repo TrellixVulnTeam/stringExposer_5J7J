@@ -43,9 +43,6 @@ def findline(values):
             
 
 
-#malapiList = ["Enumeration", "Injection"]
-#for j in malapiList:
-#    print(j)
 
 #https://www.pythonpool.com/python-remove-newline-from-list/
 #Importing the text into a list. We also have to remove the \n from each line
