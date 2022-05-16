@@ -1,8 +1,7 @@
+list = open("words.txt").readlines()
+new_list = []
+for i in list:
+    new_list.append(i.replace("\n", ""))
+    
+print(new_list)
 
-word_file = open("words.txt", "r")
-
-for aline in word_file:
-    values = aline
-    print(values)
-
-word_file.close()
