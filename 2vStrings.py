@@ -39,7 +39,7 @@ def findline(values):
             #https://stackoverflow.com/questions/2081836/how-to-read-specific-lines-from-a-file-by-line-number
             f=open('strings.txt')
             lines=f.readlines()
-            print(lines[lineNumber])
+            print("[+] Possible "+malapicategory+" action by malware. Windows API call found on this line: "+lines[lineNumber])
             f.close()
             
 
@@ -54,10 +54,10 @@ def findline(values):
 #for item in new_list: 
 #    findline(item) 
 
-
+print("Searching for Windows API calls in strings file....\n")
 
 #Looping through windows api calls. And identifying the category of windows api as per malapi.io
-malapiList = ["Enumeration", "Injection"]
+malapiList = ["Enumeration", "Injection", "Evasion", "Spying", "Internet", "Anti_Debugging", "Ransomware", "Helper"]
 for malapicategory in malapiList:
     
     
