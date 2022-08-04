@@ -1,7 +1,6 @@
-import io
+
 import pandas as pd
 from msticpy.transform import IoCExtract
-
 
 #https://www.geeksforgeeks.org/how-to-obtain-the-line-number-in-which-given-word-is-present-using-python/
 
